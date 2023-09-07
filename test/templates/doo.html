@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<title>황두현 자기소개</title>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            margin: auto;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        a{
+            text-decoration:none
+        }
+        #container {
+            display: flex;
+            justify-content: center; /* 가로 중앙 정렬 */
+            align-items: center;
+            height: 100vh; /* 화면 높이에 맞춤 */
+        }
+
+        #text-box {
+			width :fit-content ; /* 글자에 맞게 조정 */
+			background-color :white ;
+			font-size :20px ;
+			border :3px solid black ;
+			padding :50px ;
+		    float: left; /* 좌측 정렬 */
+
+        }
+
+		#image {
+		    width: 500px; /* 이미지 크기 조정 */
+		}
+        .home{
+            position:absolute;
+            top:0px;
+            left:10px;
+            font-size: 90px;
+        }
+        .home .txt{
+            opacity:0;
+            font-size: 20px;
+            display:block;
+            text-align:center
+        }
+        .home:hover .txt{
+            opacity:1;
+        }
+    </style>
+</head>
+<body>
+<a href="../index.html" class="home">
+    🍻
+    <span class="txt">Home</span>
+</a>
+<div id="container">
+    <div id="text-box">
+        <!-- 여기에 텍스트 창 내용을 입력하세요 -->
+        이름 : 황두현<br><br>
+        취미 : 게임<br><br>
+        거주지 : 부산 부산진구 서면문화로 53번길<br><br>
+        생년월일 : 1995년 02월 26일<br><br>
+
+        <img id="image" src="../static/mbti.jpg" alt="mbti">
+
+
+    </div>
+
+
+
+</div>
+
+
+</body>
+</html>
